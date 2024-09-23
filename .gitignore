@@ -16,7 +16,7 @@ cache/
 fastspeech_output
 .hydra
 .bash_history.local
-tests/reference_scores/
+tests/reference_scores/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
