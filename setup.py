@@ -22,5 +22,7 @@
 
 from setuptools import setup
 
-
-setup()
+setup(
+    packages=find_packages(exclude=['tests/*']),
+    # other setup parameters...
+)
